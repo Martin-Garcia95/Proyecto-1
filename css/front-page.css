@@ -1,5 +1,7 @@
 .imagen-campeon{
     max-width: 40%;
+    border-style: solid;
+    border-color: blueviolet;
 }
 #searchbar{
     margin-left: 15%;
@@ -24,6 +26,10 @@
    margin-left: 90px;
   }
 
-.campeones-modal{
-  display: list-item;    
+.campeon-modal{
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 15px;
+
+
  } 
